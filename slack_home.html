@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="slack.js"></script>
+	<link rel="stylesheet" href="slack_home.css">
+</head>
+<body>
+	<div class="body">
+	<nav>
+		<i class="ri-menu-line"></i>
+		<div style="color:cornflowerblue; font-weight: bold; font-size: 24px;">TeamSpace</div>
+		<div class="dropdown1" id="features-btn"><a href="">Features</a>
+			<div class="dropdown-menu" id="features-menu">
+				<ul id="features-list">
+					<!-- <li><a href="">Channels</a></li>
+					<li><a href="">Messaging</a></li>
+					<li><a href="">Huddles</a></li>
+					<li><a href="">Clips</a></li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="dropdown2"><a href="">Solutions</a></div>
+		<div class="dropdown3"><a href="enterprice.html">Enterprise</a></div>
+		<div class="dropdown4"><a href="resources.html">Resources</a></div>
+		<div class="Pricing"><a href="premium.html">Premium</a></div>
+		<div class="claas1"><a href="aboutus.html">About Us</a></div>
+		<div class="class2"><p>CREATE A NEW WORKSPACE</p></div>
+	</nav>
+	<div class="main-content">
+	<h1>Welcome Back</h1>
+	<p>Choose a workspace to get started.</p></div>
+	<!-- </div>
+	<div class="main-content-2">  		My workspaces</div>
+	<div class="main-content-3"></div>
+	<div class="main-content-4">
+		<div>Talk things through in real time.</div>
+	</div>
+	<div class="main-content-5"></div> -->
+	<div class="container">
+  <div class="box box1">
+	<div class="box-content"></div>
+	<div class="box-content"></div>
+	<div class="box-content"></div>
+  </div>
+  <div class="box box2"><h2 style="color:lightslategray">Talk things through in real time.</h2>
+	<p>Connect over audio or video.</p>
+	 <!-- <img class="headphone" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBIQEBAVFRMSFhAQFxAQDxAVEBASFBUYFhURFRUZHSggGhopGxUVITEhJSkrLi4uGB8zODMsNygtLi0BCgoKDg0OGxAQGi0lICUtLystLS0tLS0tLS0tLy0tListLS0tLS0tLTUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUBAwYCB//EAD0QAAIBAgIGBgcGBgMBAAAAAAABAgMRBCEFEjFBUWEGE3GBkbEiMkJSYqHBBzNDcpLRFCNTorLhJGOCNP/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAA4EQEAAgEDAgMGBAQEBwAAAAAAAQIDBBExEiEFQVETMmFxgaEikbHBQmLR8BQzUnIGIyQ0guHx/9oADAMBAAIRAxEAPwD4yeuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhubAAJ2AgAykExWZ4YI3JrMBJt6jQQAAAAAAAAAAAAAAAAAAAAAAbsJhKlWShShKcnsjCLb7ct3MnZW96446rztDrMN0IVKHW4/EwoQ92LTm+V3lfkrmns+nvZ5FvF4yT0aak3n7ImJ0ho6kmsLg+ua/GxUpOL5qmn+xG0eToph1d++XJ0/Cu36qLG46VZ3koRS2QpUoQiu6Kz77mcu+lK0jtv9ZRQsAbaGInB3hJx7GNt2mPLbHO9ZWVDSk2rTp06q33jHX+X7Gcw9jB4leY/5lK2j6RP2SIUcHWyV6M/dbsr8FfLyI3l2Rh8M1f4YicdvjwiY/QlWkrpa8feinddqJrZw63wXUaevXH4q/BV2NHjTAEAAAAAAAAAAAAAAAAAAA6Lot0Uq41619SinZ1LXcvhgt757EXx45s8/X+JYtJXv3t6Oqx+mcNo6LwuApRnW2Sm81B8aktspctiNYmKxtR5GLS59bMZtVbavlDh9JY6VSbnXqOtU+Jvq4ckuHJFJmK8vfw4Yxx0446Y+8oDlOee1LuivoineW7UQkIAACNvNtjRbV459j9JdxWZb1xWt3o9xxG6a1lz9Zd5Exu2rqNu2Su/6rTAaRqU1eMusp74v14dj+hR7Wi8QzafvWeunnHnCdidHUcVHrKLUZcsk3wktzIi07vQ1Hh2m8Sx+10/a398uZxFCVOTjNWktqZtE7vjs+C+G80yRtMNZLEAAAAAAAAAAAAAAAIDpuhfRl42pr1LqhTa1msnUeT6tPs2vcrcS9KdXLzfFPEY0lO3e88fB0/SvpF1f/CwbUNRatSrCyjRivwocJceBvaZmemvDyvDdBN5/wAVqO8zxH7vntStl1dJZbLrbIym38FH0da/x3HRjT9fOXuJ5LtY6YryRabcNFas5bdi2JZJdxSbbrxGzWVSAAABBNZmJ7JEa6eVRX+Jesv3M5jZ101Fbx05fzenTlT9ODuuK8miN9+Wk474fx4p3j4ful4LFNS6yllP2oezURExt2duk1dqX9rh7W86+UrrE0aeMpa0cpxulfbF74S5CJ2fQ6jBi8W0/XTtkj9fRydWm4txkrNOzT2po2id4fC5MdsdppeO8PAZgAAAAAAAAAAAAAJOjMDPEVYUaa9Ko1Fct7k+SV33CImZ2hnly1w45yW4h9O0/jo6NwtPCYXKrNasXbOMfbry5t7OfYdc9o6avldFinXZ7anN7scftD5tiajb6qGefpO+c5b23vM57x0VfU1jpjqsSkqK1Y5ze2Xu8kN4x9o5RtOTnhBbMOeW3HAAAAAAAAE7ttCs4bNj2p7GR07tsGotjnbybpwX3lPdtW+L/Yz+Euq2Pt7bF5cpuAxzhLrY8lUgt694iY2ehotZOO/t6f8AlHr8UvpFg4zisRTzTS1mt8d0voWpLt8f0lcuONXi4nlzho+S7bgQAAAAAAAAAAABYGz6B9muBhSp18dVyjBShGT3RitapJfJeJtijt1PnfHMtrzTTV/inu5nTOlJ1qk8RL162UY/06SyjFC1prG/nL1tPp64qRirxX7yhr+VD45/2onboj4tvfn4QgtmHPLbjgAAAAAAAAAAbtuHrODuu9bmiLRu3wZpxy3zXVyU45xl5b4+ZTns6r7YL+0p7srrQdZPWw8s4STlD8stsSk8vofCc0Wi2jtO9bRvX6+Tn8VRcKkoP2W1+zNa8bvldVinFltSfKWks55AAAAAAAAAAAACYfQukMv4bRmEwUcpV1GU7ZeirVJv9TS7mdE/hiKvndHX2+uyaieK9o+fDi6VpzlN+rDPuWxERG8zM8Q9y28VisItaq5Scnv+Rla3U0rHT2ayqQAAAAAAAAAABMeqVhJaydN79nKRnbs7tNeL0nDbz4MNiHTae+nLWXNbJRG28JwaicF4nzrP/wBTuksF1sakdlSKfhl5WFZd3/EFInNXLXi0bqc0eDIAAAAAAAAAAAN2Dpa9SnD3pwj+qSX1Horkt00tPwdL9o2O1sdKC2UYQpLk2taVv1WNck/ieZ4Pi6dNFp5tMy5+q9WlGO+fpPs3IW7V2ejHe2/oiGTQAAAAAAAAAAAADMXbNbUJ79lqWmtomG/F5tTXtK/fsZWno6dTtaYvHn+qXjp6+GoPfCVSn5NfKxWsd5d2qy+20WGZ5jeFYaPGAAAAAAAAAAABK0XPVr0ZPZGpSk+xTTJjlTLG+OY+E/o3aexHXYuvP3qtS3ZrNR+SQ5sppsfs8Na+kI2NlebW5Wiu7Im892lPdaCqwAAAAAAAAAAAAAJidp3b/wAPsk7d6z8ike86OcH1bsPBzhqPZr3XhZ/KxEztLoxUm+Pp+qJVg4ycXtTa8HYvHDgvSaWms+TySqAAAAAAAAAAF5orAueEq1oxzp1aKb4RcKi/ycPE0x8uXNmiuStJ84n9VZXp6slJZxb1k+e+L53E12s6Ints8YqOestkvSXftXiVtHdNeNmkqkAAAAAAAAAAAADKjuI3Xiky3ScXaN8o8Fe73sj4t7WpO0cRCwwM4x/mSyjHZHe3t1VxbaV3uRlaJelo8lKz1zxH3RNL09WvUtsb112SV/qa1lw+IV21Fp8p7x9UMs4QAAAAAAAAAA6vRmJnh9HQnBKXW4mrGdOXq1KSpKLg+V33MvET5OC9a5NTNZ8q/ffdQYzERcm6Wsk89Wdm1yb2S7bJkTaXbEdu6TozRdWvGU24woxa1q1W8acZPdGyvKXwq+4d5UyZq47REd5ny/vhmtoynKcKdCU5uTUdacYxTbaWUVdpZ733E9CK5Z6Zm3aFW4OydsneztttlkUbPIAAAAAAAAD1qPb2/IjeGkY55TcLhOO+M2vzQd2u22feUtPo7dPpu+8+e/2SoVnazSmsvRkrp3V1Z7VdbLPbkZ7zu7cdo6dto/qi4zCR1FWpX1G9WUZetSlwb4czWLOXU6WvsvbYvd34nmJaMJG8s+F13O/7i0uXTVi14i3CTpr1qcuNKF+bTcX5Cjq8UnqvSf5YVxd5c8gAAAAAAAAAB0aq2wWEg98sVU7ushFf4yNcbi6N897f7Y+0qzD6LnUnh6a9bEZpe7FzcVN/pb7jPbu6cmaKVtb0XfSTFLr/AOGpZUMJajTitkqrylVfGV3LPlzNqRs4tJS3s/aW963efl5Q89HY3xMXupwr1n2U6clH+5pk3nsvqJ2xd/OYj80bSWGUIYSFvwcPN9tSVSb80UpTsviyzabT6TMflspa0fRi+2Pg/wBikx2h0xPfZpKysAAAAAAAl045QXGFR+ZnMvRx092PhK2wSypy92rFP8tSmk/mVerp6xtSf5vtMIElq3h7sp0/D0oshx3/AATanpMx+8JOimp1KlJ+rWhe3Ce26+Zdt4fMZcl8E8Xj7wiU42pKT20qjg+ya/dPxHLipTpxdX+mdp+rGkrqNJP1tWUnyUpNxXh5k0Rre1McTztM/nwgF3mgAAAAAAAAABd4OpCvhlh3JQrUnOVKU3qwqQqetRcnkpa2abyzaJ32c81tTJN44ttv9OJdNonB20pgk9lPB0527KUl/lK5pWPxPL1OXq0eT43mPu4r+K1pyk/aqdY+9t/UrWeXsxTasR6RsvuiiusXPfDBVfF7fItz+Tg13b2cfzw2dLVqYmnHhSwS8IyRas7dldD+LHM/zW/ZzclelfhN/NFZ71eh/F9EUz8mgQAAAAAATJOzpfl8zKO8fV6d56Jx/JY6MnejU+F4eXg/9FZjZ6Wgt14bz6TWf0RdNy1a9VcZRl4w/wBmlYcfitvZ6u/z3/OGrQ9S2IpP4lHueX1Jnhz+FX21ePf12TsVLqo13ZXddausrrJN3t3opHd6Gpn2OPNEed4+ylq1HJuUndt3be81h4N8k3neXkKAAAAAAAAAABlEJh9C6F1lWlh6izlSoYjCT4q1p0n3xc/0s2ry8HxOvs8do9bVmP3fPI7DJ70ur6DLWjj48cLUXmXrP6PL8R5xT/PDP2htrFU5LfQw8vDWJvO0o8I/ypif9UuepK9GfJp+RNfcl6E+/CIZNAAAAAAAErF7Kb+FFKcu/Vz+HHMeifoL7rEdkPNlbvR8H/yMv0/WGnpH/wDTPsh/ii9eHN45/wB5b5R+kImj/vqf54eYtw4/D5/6nH/uhM6QVb1pQWyLb7ZStd+CS7iKQ7fGsm+otSOImf2VZd44AAAAAAAAAAAAIdP9nOI1dIU4+zUVSDW5+hKSv3ovi52eb4tTfSzb0mJ+8OdxVFwnKDT9GU45/DJr6FJ5l6GO3VWLeuzpfs6n/wAqdP8Aq0K0O+1/oy+PvbZ53i3bDF/S0Sx04nrxwNX+phqfjHb5i/qnw6OmctfS0/dQUPuqn/ktX3Jd1vfhFZk0AAAAAAASMT6lPsa8GVp2l26jvjxz8JWOhPuq/N0Y+Mil3p+Ef5GT4zWPvCNp6V8TU7UvCKReOHF4zbq1l5+UfaGdDYZyqQlwqU12+s38okXnaE+F4OrPSfSYadKz1q1R8Zv5ZE04Y+JXi2qyWj1RCzhAAAAAAAAAAAAAmaHxzw9elWX4c4ytxj7S8GyYnaWWfF7XFanrDqummitbrKtOz1ZPELV9vDV7Nz/81FK/BTRN49Hn6DPM1rW3y+sf1hz3RbGKhjcPVbsozSb+GXov5MVnad3brMXtdPanwXXTChbD0Vvw1fF4VrhFy6yH9tibcOTw/vlttxaKz+0/dzFJ/wAupzcfMms/gl6FvehHM2gEAAAAAAb5u9OPKUl45lI9503nfDHwmVnoT1En7damu6Cc2Rfl6nhtojDt63j7Rv8AsrqutWqycVdzk7Jc2W4h52bqz6i0185XVJxw1LWunqqWr/2VpKzkvhSyv2mfMvcx9Giw9XpG3ztPn8oc7J3NY7PmrW6t7SwSoAAAAAAAAAAAABlBMdu7p+j/AElVOEaFdvVhfqq6jrSoaytKEofiUnvj/otEvP1Gimbe0x8zzHr8Y9JR9OaHjZ1sPG9N5vqb1KKvvjJelD8s0muLInu2wZt/w37THr2/P+qbpXF/xGHqzvnUjhsU1wq0v5FZd91Illix+yyRHpvEfKe8OcdGSoqbyUpuK56sU21y9Ijfts7e0yikJnuAAAAAAAk4eCknFySeTTllG+9X3PPfwKS6cUdUdG8R81rhsJVhTS1bWVWWu5R1E5LVT1r22JvvKz3l6+HT5seLiPPvPCHTrU6Kai+sfJatPsb2yXLJdpaY3cMXxabtE9U/Lt/7Q8TiZVJa03d7FwS4JbkWiHLn1F889Vp/v4NJLnAAAAAAAAAAAAAAAAG3C4mpSkp0pyhJe1CTUvFBW1K3ja0bwul0qqtXnQw86ma66dBa9nxSajJ9qLRaduHN/g6xO9bWiPTdUY7HVa8tarUcnsV9kVwilklyRV01pWnasI4WAAAAAAALgjszrO1ru3C+XgRtC3Xbbp37MEqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//2Q==" alt="">  -->
+	 <button style="padding: 10px;margin: 10px;border-radius: 5px;border:2px solid steelblue">Start a Huddle</button>
+  </div> 
+  <div class="box box3">
+	<h2 style="color:lightslategray">Invite external partners.</h2>
+	<p>Speed up work with outside teams</p>
+	<button style="padding: 10px;margin: 10px;border-radius: 5px;border:2px solid steelblue">Invite People</button>
+</div>
+
+</div>
+<div class="lb">
+	<div class="lb1">
+		  <!-- <div class="card-title">Manage your preferences.</div>
+                <div class="card-description"><p>Customise your TeamSpace settings.</p></div>
+                <button>See preferences</button> -->
+            
+	</div>
+	<div class="lb2"></div>
+	<div class="lb3"></div>
+
+</div>
+<script src="slack_home.js"></script>
+</div>
+</body>
+</html>

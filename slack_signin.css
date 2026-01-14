@@ -1,0 +1,139 @@
+       body {
+            margin: 0;
+            height: 100vh;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #dbeafe, #fef3c7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .container {
+            width: 400px;
+            height: 500px;
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 30px 50px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2563eb;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+            color: #111827;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #6b7280;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            font-size: 15px;
+            border-radius: 10px;
+            border: 1px solid #d1d5db;
+            margin-bottom: 15px;
+        }
+
+        input:focus {
+            
+            border-color: #2563eb;
+        }
+
+        .primary-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #2563eb, #4f46e5);
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .primary-btn:hover a {
+            opacity: 1;
+            color:#e5e7eb;
+        }
+
+        .divider {
+            margin: 25px 0;
+            font-size: 13px;
+            color: #6b7280;
+        }
+
+        .social-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #f9fafb;
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .social-btn:hover {
+            background-color: #e5e7eb;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        .footer a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .social-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #f9fafb;
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+    }
+
+    
+    .social-btn .icon {
+        width: 22px;
+        height: 15px;
+        display: inline-block;
+    }
+    .primary-btn a {
+    color: white;
+    text-decoration: none;
+}
+.background_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+    
