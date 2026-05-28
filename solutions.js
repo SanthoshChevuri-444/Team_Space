@@ -1,6 +1,8 @@
-const solutionsBtn = document.querySelector(".dropdown2 a");
+const solutionsBtn =
+document.getElementById("solutions-btn");
 
-const solutionsMenu = document.getElementById("solutions-menu");
+const solutionsMenu =
+document.getElementById("solutions-menu");
 
 solutionsBtn.addEventListener("click", function(e){
 
@@ -10,13 +12,17 @@ solutionsBtn.addEventListener("click", function(e){
 
 });
 
+/* CLOSE DROPDOWN WHEN CLICKING OUTSIDE */
+
 document.addEventListener("click", function(e){
 
     if(
         !solutionsBtn.contains(e.target) &&
         !solutionsMenu.contains(e.target)
     ){
+
         solutionsMenu.classList.remove("show");
+
     }
 
 });

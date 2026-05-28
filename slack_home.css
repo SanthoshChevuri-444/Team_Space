@@ -92,7 +92,7 @@ nav a:hover{
     transform:translateY(-2px);
 }
 
-/* DROPDOWN */
+/* FEATURES DROPDOWN */
 
 .dropdown1{
     position:relative;
@@ -133,51 +133,36 @@ nav a:hover{
 #features-list li:hover{
     background:#f1f5f9;
 }
-/*Dropdown 2*/
+
+/* SOLUTIONS DROPDOWN */
+
 .dropdown2{
     position:relative;
 }
 
 #solutions-menu{
+
     position:absolute;
-    top:40px;
-    left:-250px;
+
+    top:45px;
+
+    left:-240px;
 
     width:850px;
 
     display:none;
+
     grid-template-columns:1fr 1fr 1fr;
+
     gap:30px;
 
     background:white;
 
-    padding:25px;
+    padding:30px;
 
-    border-radius:16px;
+    border-radius:20px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,0.15);
-
-    z-index:2000;
-}
-
-#solutions-menu{
-    position:absolute;
-    top:40px;
-    left:-250px;
-
-    width:850px;
-
-    display:none;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:30px;
-
-    background:white;
-
-    padding:25px;
-
-    border-radius:16px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
 
     z-index:2000;
 }
@@ -185,6 +170,9 @@ nav a:hover{
 #solutions-menu.show{
     display:grid;
 }
+
+/* COLUMNS */
+
 .solutions-column{
     display:flex;
     flex-direction:column;
@@ -194,46 +182,51 @@ nav a:hover{
 .solutions-column h4{
     color:#0f172a;
     font-size:15px;
+    margin-bottom:10px;
     letter-spacing:1px;
-    margin-bottom:8px;
 }
 
 .solutions-column a{
-    color:#1e293b;
     text-decoration:none;
+    color:#334155;
     font-weight:500;
+    transition:0.3s;
 }
 
 .solutions-column a:hover{
     color:#2563eb;
 }
 
+/* TEMPLATE BOX */
+
 .template-box{
-    background:#f1f5f9;
+    background:#f8fafc;
     padding:18px;
     border-radius:14px;
 }
 
 .template-box p{
     color:#64748b;
-    line-height:1.5;
+    line-height:1.6;
 }
+
+/* TEMPLATE IMAGE */
 
 .template-img{
-    height:100px;
+    width:100%;
+    height:110px;
+
     border-radius:12px;
-    background:linear-gradient(135deg,#dbeafe,#c084fc);
-    margin-bottom:10px;
+
+    margin-bottom:15px;
+
+    background:linear-gradient(
+        135deg,
+        #dbeafe,
+        #c084fc
+    );
 }
 
-@media(max-width:900px){
-    #solutions-menu{
-        position:static;
-        width:100%;
-        grid-template-columns:1fr;
-        margin-top:10px;
-    }
-}
 /* HERO SECTION */
 
 .main-content{
@@ -426,6 +419,17 @@ button:hover{
         flex-direction:column;
     }
 
+    #solutions-menu{
+
+        position:static;
+
+        width:100%;
+
+        grid-template-columns:1fr;
+
+        margin-top:15px;
+    }
+
 }
 
 @media(max-width:600px){
@@ -455,4 +459,3 @@ button:hover{
     }
 
 }
-
